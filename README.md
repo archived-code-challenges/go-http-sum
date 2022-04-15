@@ -2,9 +2,9 @@
 
 This project holds the code of simple HTTP service with two endpoints:
 
-`POST /auth`: returns a response containing a JWT (OAuth 2) token with the username as a subject.
+`POST /auth`: returns a response containing a JWT (OAuth 2) token with the username as a subject. The successful response follows the [Oauth2 standard](https://www.oauth.com/oauth2-servers/access-tokens/access-token-response/)
 
-`POST /sum`: accepts an arbitrary JSON document as payload, finds all of the numbers throughout the document and adds them together. The successful response follows the [Oauth2 standard](https://www.oauth.com/oauth2-servers/access-tokens/access-token-response/)
+`POST /sum`: accepts an arbitrary JSON document as payload, finds all of the numbers throughout the document and adds them together.
 
 This API returns the appropriate error status code when an issue is found.
 
